@@ -1,0 +1,92 @@
+body{
+    background-color: black;    
+}
+
+.gameTitle {
+    color: White;
+    text-shadow: 2px 25px grey;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-color: violet;
+    gap: 1rem;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.optionsBTN {
+    width: 200px;
+    height: 200px;
+}
+
+.gameStatus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.turnString {
+    color: white;
+    font-family: fantasy;
+}
+
+.gameCurrentStatus{
+    color: white;
+    font-family: fantasy;
+    border-color:violet
+}
+
+.gameStatics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.gridWins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: dotted;
+    border-color: green;
+    padding: 25px 25px 25px 25px;   
+}
+
+.gridLosses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: dotted;
+    border-color: rgb(255, 0, 0, 0.76);
+    padding: 25px 25px 25px 25px;
+}
+
+.gridDraws{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: dotted;
+    border-color: grey;
+    padding: 25px 25px 25px 25px;
+}
+
+.gridTextWins, .gridTextLosses, .gridTextDraws{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px 25px 25px;
+}

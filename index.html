@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Paper Sccisors and Rock</title>
+</head>
+<body>
+    <h1 class="gameTitle">Paper Sccisors & Rock</h1>
+    <div class="Options"> 
+        <button style="background: url(Images/rock.png);" class="optionsBTN" onclick="choosingRock()"></button>
+        <button style="background: url(Images/paper.png);" class="optionsBTN" id="choosingPaper" onclick="choosingPaper()"></button>
+        <button style="background: url(Images/sccisors.png);" class="optionsBTN" id="choosingSccisors" onclick="choosingSccisors()"></button>
+    </div>
+    <div class="gameStatus">
+        <p class="turnString">Turn:</p>
+        <p class="gameCurrentStatus" id="gameCurrentStatus_Text">You choose "+PlayerChoosen+" and the computer choose "+ComputerChoose+"</p>
+    </div>
+    <div class="gameStatics">
+        <div class="gridWins"><h3>Wins</h3><p class="gridTextWins" id="countWins">0</p></div>
+        <div class="gridLosses"><h3>Loses</h3><p class="gridTextLosses" id="countLosses">0</p></div>
+        <div class="gridDraws"><h3>Draws</h3><p class="gridTextDraws" id="countDraws">0</p></div>
+    </div>
+
+
+</body>
+</html>
